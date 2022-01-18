@@ -16,7 +16,7 @@ module.exports = {
 
             let realW = w;
             //Remove special characters (like accents)
-            w = w.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+            w = w.normalize('NFD').replace(/^([a-zA-Z]{2,}\s[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)/g, "");
 
             if (namesDb[w.toUpperCase()]) {
                 namesFound.push(realW);
