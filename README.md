@@ -1,8 +1,6 @@
 # check-name
 Simplest, cheapest and easiest API to check if there is a correct first name in a string
 
-![Gif: Say my name](/docs/images/myname.gif)
-
 # Introduction
 
 If you are creating chatbots probably you have already asked the name of some user. For instance:
